@@ -6,3 +6,8 @@ class BlogForm(forms.ModelForm):
         model = Blog
         fields = '__all__'
         
+        #widget = {
+            
+            
+        #}
+        

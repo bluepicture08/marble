@@ -25,4 +25,4 @@ def postcreate(request):
             return redirect('home')
     else:
         form = BlogForm()
-        return render(request, 'r_registeration/roomregister.html', {'form':form})
+        return render(request, "r_registeration/roomregister.html", {'form':form})

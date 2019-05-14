@@ -22,7 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', r_registeration.views.home, name = "home"),   
     path('r_registeration/roomregister/', r_registeration.views.roomregister, name="roomregister"),
-    path('r_registeration/postcreate/', r_registeration.views.postcreate, name = "postcreate"),
+    path('r_registeration/postcreate', r_registeration.views.postcreate, name = "postcreate"),
     path('r_registeration/find/', r_registeration.views.find, name="find"),
     path('r_registeration/<int:blog_id>', r_registeration.views.detail, name="detail"),
     
